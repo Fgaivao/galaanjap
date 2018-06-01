@@ -1,0 +1,154 @@
+<div class= "w3-top">
+<div class="navbar">
+
+
+
+<div class="title">
+<h1 style="text-align: center">I Gala ANJAP</h1>
+
+</div>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">Sobre</a>
+  <a href="#">Convidados Especiais</a>
+  <a href="#">Patrocinadores</a>
+  <a href="#">Contactos</a>
+</div>
+
+<div>
+  <h1 style="padding-right: 120px">LOGO</h1>
+</div>
+
+<div id="main">
+  <span style="font-size:40px;cursor:pointer; color: rgb(202, 144, 0)" onclick="openNav()">&#9776;</span>
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+
+</div>
+</div>
+
+<div>
+
+ <p style="text-align:center; padding-top: 100px" id="demo"></p>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Sep 21, 2018 19:30:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+    // Get todays date and time
+    var now = new Date().getTime();
+
+    // Find the distance between now an the count down date
+    var distance = countDownDate - now;
+
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // Output the result in an element with id="demo"
+    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+
+    // If the count down is over, write some text
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+    }
+}, 1000);
+</script>
+
+</div>
+
+
+<h1 class="porque" style="padding: 50px;"> Sobre</h1>
+
+<div class="card-about">
+
+  <p style="text-align: center; padding: 50px; color: white; font-size: 20px;">Lorem ipsum dolor sit amet, mel et veniam malorum delectus, at singulis forensibus pri. Nibh oporteat molestiae at est. In affert congue definiebas nam, ea suavitate definiebas eos. Graeco voluptaria ex mel, an per amet vivendo, eos no cetero minimum albucius. Ad eam unum dignissim definitionem, sanctus reprehendunt vix ea. Usu an dico delectus, no labitur vulputate concludaturque est, per soluta forensibus vituperata an.
+
+Nibh feugiat repudiandae eam no. Tota ferri everti no vis, et duo assum facete salutatus. Erat putent aperiri eu per, an eum nulla eripuit explicari. No vide rationibus nam, iuvaret nominavi efficiantur te eos. Ad solum nusquam vivendo eam, nam diam repudiandae et. Ei impedit democritum eam, te lorem quando eum, in lorem altera vel. Te scripta placerat pro, consul populo id mei, ut alii legere posidonium per.
+
+Ius alia option iudicabit cu, quo accusamus conceptam ex, ut amet malis eum. Te error virtute pro, at erat eligendi sed. Est in meis singulis deserunt, adolescens definiebas eam ex, qui mazim posidonium ne. Unum veritus fuisset ut eum. Pri minim commodo an. Et quas dicat posidonium usu. Blandit dissentias vituperatoribus cu vel.
+
+Qui dolore mandamus inciderint ei, pro aperiri similique percipitur et, ei prima ubique conceptam eos. Mutat posidonium sit an, has cu dictas veritus molestiae. Eum et vidisse maiestatis, in aeterno viderer percipitur vis. Dolor quaerendum cu vix.
+
+At ridens dignissim sit. Ad aeterno feugait sit, te tation doctus quaerendum mei. Cibo velit quodsi cum ex, mea nemore invidunt consetetur no. Id stet denique pro. Vix te primis fabellas voluptatum, nihil possit pertinacia te nam.</p>
+
+
+
+</div>
+
+
+<h1 class="porque" style="padding: 50px;">Convidados Especiais</h1>
+
+<div class="card-c">
+
+
+
+  <div class="pic-card"></div>
+  <div class="pic-card"></div>
+  <div class="pic-card"></div>
+  <div class="pic-card"></div>
+  <div class="pic-card"></div>
+  <div class="pic-card"></div>
+  <div class="pic-card"></div>
+  <div class="pic-card"></div>
+  <div class="pic-card"></div>
+  <div class="pic-card"></div>
+  <div class="pic-card"></div>
+  <div class="pic-card"></div>
+  <div class="pic-card"></div>
+  <div class="pic-card"></div>
+  <div class="pic-card"></div>
+  <div class="pic-card"></div>
+  <div class="pic-card"></div>
+  <div class="pic-card"></div>
+
+
+</div>
+<div style="text-align: center">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3112.515991514912!2d-9.153620284499755!3d38.72891997959688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1933719955615f%3A0x34baf6866f87e92f!2sPavilh%C3%A3o+Carlos+Lopes!5e0!3m2!1spt-PT!2spt!4v1527844972640" width="70%" height="500" frameborder="0" style="border:0; padding-top: 100px;" allowfullscreen></iframe>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+

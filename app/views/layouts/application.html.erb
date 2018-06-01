@@ -1,15 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Galaanjap</title>
+    <title>Gala Anjap</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> <!-- fixed-nav -->
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- for device -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous"> <!-- bootstrap -->
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet"> <!-- googlefonts -->
   </head>
 
   <body>
+
+    <%= javascript_include_tag "application" %>
+  <%= javascript_include_tag "https://maps.googleapis.com/maps/api/js" %>
     <%= yield %>
   </body>
 </html>
