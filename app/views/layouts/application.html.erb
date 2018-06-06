@@ -1,43 +1,48 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Gala Anjap</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
+<head>
+  <meta charset="utf-8">
+  <title>Gala Anjap - Gala para todos os advogados portuguêses</title>
+  <meta name="description" content="A Associação Nacional dos Jovens Advogados Portugueses é a maior e mais antiga associação dos advogados portugueses com menos de 15 anos de profissão.
+  A I Gala ANJAP, que se irá realizar pela primeira vez este ano, tem como objetivos o fomento e o diálogo geracional entre advogados e também a missão solidária.
+  Sob o mote “O Futuro da Advocacia em Portugal”, a I Gala ANJAP conta já com o alto patrocínio de Sua Excelência o Presidente da República.
+  Os proveitos da I Gala ANJAP reverterão para a Associação Portuguesa de Apoio à Vítima (APAV).">
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 
-    src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"
-
-
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> <!-- fixed-nav -->
+  src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"
 
 
-    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- for device -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous"> <!-- bootstrap -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> <!-- fixed-nav -->
 
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"><!-- googlefonts -->
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous"> <!-- fontawesome -->
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- for device -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous"> <!-- bootstrap -->
 
-    <!-- Smartsupp Live Chat script -->
-<script type="text/javascript">
-var _smartsupp = _smartsupp || {};
-_smartsupp.key = '0d9b3b6e7e5f6c5203f1e4369efa30bf806481af';
-window.smartsupp||(function(d) {
-  var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
-  s=d.getElementsByTagName('script')[0];c=d.createElement('script');
-  c.type='text/javascript';c.charset='utf-8';c.async=true;
-  c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
-})(document);
-</script>
-  </head>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"><!-- googlefonts -->
 
-  <body>
-    <%=  src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" %>
-    <%= javascript_include_tag "application" %>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous"> <!-- fontawesome -->
+
+  <!-- Smartsupp Live Chat script -->
+  <script type="text/javascript">
+    var _smartsupp = _smartsupp || {};
+    _smartsupp.key = '0d9b3b6e7e5f6c5203f1e4369efa30bf806481af';
+    window.smartsupp||(function(d) {
+      var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+      s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+      c.type='text/javascript';c.charset='utf-8';c.async=true;
+      c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+    })(document);
+  </script>
+</head>
+
+<body>
+  <%=  src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" %>
+  <%= javascript_include_tag "application" %>
   <%= javascript_include_tag "https://maps.googleapis.com/maps/api/js" %>
-    <%= yield %>
-  </body>
+  <%= yield %>
+</body>
 </html>
