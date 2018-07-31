@@ -11,8 +11,11 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 
-  src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+  <src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
 
+  <src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" >
+  <%= javascript_include_tag "application" %>
+  <%= javascript_include_tag "https://maps.googleapis.com/maps/api/js" %>
 
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> <!-- fixed-nav -->
 
@@ -28,9 +31,6 @@
 
 <body>
 
-  <%=  src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" %>
-  <%= javascript_include_tag "application" %>
-  <%= javascript_include_tag "https://maps.googleapis.com/maps/api/js" %>
   <%= yield %>
 </body>
 </html>
