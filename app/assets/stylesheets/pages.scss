@@ -15,12 +15,12 @@ section {
     min-height: 100%;
 }
 
-@media screen and (max-width: 375px) {
+// @media screen and (max-width: 375px) {
     #about {
          width: 100%;
 
     }
-}
+// }
 
 .navbar{
   background-color: white;
@@ -121,7 +121,7 @@ section {
   display: inline-block;
 }
 
-@media screen and (max-width: 480px) {
+// @media screen and (max-width: 480px) {
     .pic-card {
          width: 150px;
          height: 150px;
@@ -129,15 +129,15 @@ section {
     .cartaz {
       width: 100%;
     }
-}
+// }
 
 @media screen and (max-width: 480px) {
     .map {
          width: 100%;
 
     }
-}
-@media screen and (max-width: 480px) {
+ }
+// @media screen and (max-width: 480px) {
     .card-about {
          width: 100%;
          margin:0 !important;
@@ -148,7 +148,7 @@ section {
          margin:0 !important;
 
        }
-}
+// }
 
 
 
