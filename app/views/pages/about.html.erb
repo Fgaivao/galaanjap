@@ -169,30 +169,82 @@ Data: 21 de setembro de 2018</p>
 
 <div style="text-align: center; padding-top: 30px;">
   <%= image_tag "logo-lx.jpg", :style => "height: 100px;" %>
+
+
+</div>
+<table style="width:50%; margin-left: 300px;">
+<tr>
+  <td><div style="text-align: center; padding-top: 30px;">
+  <%= image_tag "plmj.jpg", :style => "height: 50px;" %>
+</div></td>
+<td><div style="text-align: center; padding-top: 30px;">
+  <%= image_tag "teives.jpg", :style => "height: 80px;" %>
+</div></td></tr>
+<td>
+<div style="text-align: center; padding-top: 30px;">
+  <%= image_tag "v2.png", :style => "height: 50px;" %>
+</div></td>
+</tr>
+<tr>
+  <td>
+<div style="text-align: center; padding-top: 30px;">
+  <%= image_tag "ccr.png", :style => "height: 80px;" %>
+</div></td>
+<td>
+<div style="text-align: center; padding-top: 30px;">
+  <%= image_tag "dla.png", :style => "height: 70px;" %>
+</div>
+</td>
+
+
+</tr>
+</div>
+</table>
+
+
+
+
+  <div style="text-align: center;">
+  <h1 id="participar" style="padding-top: 100px; padding-bottom: 10px; font-size: 30px">PARTICIPAR</h1>
+
 </div>
 
-<div id="participar" style="text-align: center;" style="width: 100%;">
-  <div class="w3-dropdown-click" style="width: 100%; margin-top: 100px;">
-    <button onclick="myFunction()" class="w3-button w3-black" style="width: 100%; font-size: 30px;">PARTICIPAR</button>
-    <div id="Demo" class="w3-dropdown-content w3-bar-block w3-card-4 w3-animate-zoom" style="width: 100%; text-align: center; background-color:rgb(234, 214, 168);">
-      <h4 style="margin-top: 50px;">MAIS INFORMAÇÕES BREVEMENTE<h4>
-        <h3 style="margin-top: 20px; color:white;">Caso esteja interessado em participar poderá enviar um email para<br><a href="mailto: gala@anjap.pt" target="_top"><i>gala@anjap.pt</i></a><h3 style="color:white;"><br>
-        IBAN para pagamento:<br>
-        PT50 0018 000319391176020 09 </h3>
+
+<div style="padding-top: 70px;">
+ <form action="https://formspree.io/gala@anjap.pt"
+      method="POST">
+      <h5>Nome</h5>
+    <input style= "border-radius: 5px; width: 300px; height: 40px" type="text" name="Nome">
+    <div style="padding-top: 20px;">
+    <h5>Último Nome</h5>
+    <input style= "border-radius: 5px; width: 300px; height: 40px"; type="text" name="ultimonome">
     </div>
+    <div style="padding-top: 20px;">
+    <h5>E-mail</h5>
+    <input style= "border-radius: 5px; width: 300px; height: 40px" type="email" name="_replyto">
   </div>
+  <div style="padding-top: 20px;">
+    <h5>Associado ANJAP</h5>
+    <select name="Associado ANJAP">
+  <option value="sim">Sim</option>
+  <option value="não">Não</option>
+</div>
+</select><br>
+<div style="padding-top: 40px;">
+  <h5>Advogado | Advogado-estagiário | Estudante | Demais Participantes</h5>
+    <select name="bilhete" style="width: 150px;">
+  <option value="advogado">Advogado</option>
+  <option value="advo-e">Advogado-estagiário</option>
+  <option value="estudante">Estudante</option>
+  <option value="outros">Demais Participantes</option>
+</select><br>
+</div>
+<div style="padding-top: 40px;">
+    <input type="submit" value="Enviar">
+  </div>
+</form>
 </div>
 
-<script>
-function myFunction() {
-    var x = document.getElementById("Demo");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-</script>
 
 <div style="text-align: center;">
   <h1 id="contactos" style="padding-top: 100px; padding-bottom: 10px; font-size: 30px">CONTACTOS</h1>
